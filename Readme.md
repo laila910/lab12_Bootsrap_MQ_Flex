@@ -19,8 +19,10 @@
 # Solve Task2 as in:
    1. Task 2 in Mobile as: 
     ![image](solveTasks/Task2_In_Mobile.png)
+
    2. Task 2 in Tablet as:
     ![image](solveTasks/Task2_In_Tablet.png)
+
    3. Task 2 in Laptop:
     ![image](solveTasks/Task2_In_Laptop.png)
    
@@ -30,8 +32,10 @@
 # Solve Task3 as in:
   1. Task 3 in Mobile as: 
     ![image](solveTasks/Task3_In_Mobile.png)
+
    2. Task 3 in Tablet as:
     ![image](solveTasks/Task3_In_Tablet.png)
+
    3. Task 3 in Laptop:
     ![image](solveTasks/Task3_In_Laptop.png)
   
@@ -39,8 +43,10 @@
    rebuild website to make it responsive
    1. Bootstrap website in Laptop as :
      ![image](solveTasks/Bootstrap_Website_In_Laptop.png)
+
    2. Bootstrap Website in Mobile as:
      ![image](solveTasks/Bootstrap_Website_In_Mobile.png)
+     
    3. Bootstrap Website after opening Nav:
      ![image](solveTasks/Bootstrap_Website_After_Opening_Nav.png)
  
