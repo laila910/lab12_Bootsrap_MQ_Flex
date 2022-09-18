@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+   
+   
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240,240,240);
+
+}
+body{
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background-color: rgb(240,240,240);
+}
+ .container {
+    width: 95%;
+  margin:0 auto;
+  
+
+
+}
+#section1{
+    background-color: rgb(240,240,240);
+}
+
+.maintxt {position: relative;}
+.maintxt > img, .overlay-text {position: absolute;}
+.container-sec3{
+    width: 95%;
+    margin:0 auto;
+    background-color: rgb(169,212,16);
+    background-image: url("Images/intro_flower.png");
+
+    /* background:rgb(169,212,16) url("Images/intro_flower.png") ; */
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: right top;
+    padding: 44px;
+    border-radius: 22px;
+}
+
+.container-sec3 h2{
+    color:#fff;
+}
+
+.container-sec3 p{
+    color:rgb(220, 218, 218);
+}
+
+#section3{
+    background-color: rgb(240,240,240);
+    padding: 20px;
+    position: relative;
+}
+#section4{
+    background-color:rgb(240,240,240) ;
+}
+.d{
+    background-color: rgb(227,227,227);
+    border:1px solid rgb(227,227,227);
+    border-radius: 25px;
+}
+.aside .aside1,.aside .aside2{
+   
+    background: url("images/sidebar_section_background.png") repeat-x;
+    border-radius: 11px;
+}
+#section5{
+    background-color: black;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+}
+.mcontent{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.mcontent .mainContent{
+    background-color: rgb(240,240,240);
+    width:70%;
+
+}
+.mcontent .aside{
+    background-color:rgb(230,230,230);
+    width:30%;
+}
+@media (min-width:576px) {
+                
+                
+}
+
+@media(min-width:768px) {
+   
+}
+
+@media (min-width:992px) {
+nav ul{
+display: flex;
+justify-content: space-evenly;
+width:95%;
+
+}
+.container-sec3 .consec3{
+    width:44%;
+    }
+.container-sec3{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.f{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+   
+
+}
+.mcontent{
+    display: flex;
+    flex-direction: row;
+}
+}
+@media (min-width:1200px){
+  
+}
