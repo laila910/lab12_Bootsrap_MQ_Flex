@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <style>
+       /* Basic styling */
+       * {
+                padding: 0;
+                margin: 0;
+                outline: none;
+                box-sizing: border-box;
+            }
+            
+            html {
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #fff;
+            }
+            
+             .container {
+                width: 95%;
+              margin:0 auto;
+            }
+         
+            #section1  .container div ul {
+                list-style-type: none;
+            }
+            #section1  .container div ul {
+                display: none;
+            }
+            #section1  .container div ul li a {
+                text-decoration: none;
+                color: #fff;
+            }
+            #section1  .container div label i {
+                cursor: pointer;
+            }
+              
+         #section1  .container div label i {
+                color: #000;
+                font-size: 1.5rem;
+                border: thin solid #fff;
+              
+                border-radius: 3px;
+            }
+         
+            #section1 .container div label {
+                display: block;
+                text-align: right;
+            }
+               
+         #section1  .container div input {
+                display: none;
+            }
+            
+           
+            #section1 .container input:checked+ul {
+                display: block;
+            }
+          
+            #section1 .container{
+                background-color: #535766;
+            }
+            
+            #section1 .container div {
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+             
+          
+             
+          
+            
+          
+            #section1 .container ul {
+                display: flex;
+              
+            }
+           
+            
+            #section1 .container .div2 ul li:last-of-type {
+                color: #FFCB0F;
+            }
+           
+        #section2 {
+            margin-top:25px;
+            display: flex;
+            flex-direction: column;
+          gap:10px;
+        }
+        .container-sec2 {
+            
+            width: 95%;
+            height: 40vh;
+              margin:0 auto;
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+           
+
+             
+            }
+            .container-sec21,.container-sec22{
+                border:3px solid black;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: center;
+                padding-top: 10px;
+                
+            }
+            #section2 .container-sec2 .container-sec21 .footer,  #section2 .container-sec2 .container-sec22 .footer{
+                background-color:#535766;
+
+            }
+         
+          
+            @media (min-width:576px) {
+                
+                
+            }
+            
+            @media(min-width:768px) {
+               
+            }
+            
+            @media (min-width:992px) {
+               
+                #section1  .container div ul {
+                    display: flex;
+                    justify-content: space-evenly;    
+                }
+            
+                
+                #section1 .container div label {
+                    display: none;
+                }
+                
+                #section1  .container div ul li {
+                    padding: 20px;
+
+                }
+                
+                #section1  .container input:disabled+ul {
+                    display: block;
+                }
+                #section2 .container-sec2{
+                flex-direction: row;
+                }
+                
+                #section2 .container-sec21,.container-sec22{
+                  width:50%;
+                }
+                
+                
+
+            }
+               
+           
+            
+            @media(min-width:1200px) {
+    
+              
+             
+            } 
+
+    </style>
+</head>
+<body>
+    <section id="section1" >
+          <div class="container">
+            
+             <div class="div2">
+                  <label for="menu"><i class="fas fa-bars"></i></label>
+                  <input type="checkbox" id="menu">
+                <ul>
+                  
+                 <li> <a href="#" target="_blank">Home</a></li>
+                 <li> <a href="#" target="_blank">About</a></li>
+                 <li> <a href="#" target="_blank">Services</a></li>
+                 <li> <a href="#" target="_blank">Contact</a></li>
+               </ul>
+
+             </div>
+         </div>
+     </section>
+     <section id="section2">
+        <div class="container-sec2">
+            <div class="container-sec21">
+
+            <div>This is a flex item.</div>
+            <div class="footer">Footer</div>
+        </div>
+        
+       
+            <div class="container-sec22">
+            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora delectus laudantium totam quam, voluptatum repellat cum quod dolor quis error dolorem, praesentium nesciunt! Eius ab commodi alias quidem, minus sapiente! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sunt, fugit ducimus doloremque doloribus ex modi ipsum mollitia. Ipsam dolorem reiciendis esse iusto distinctio quod debitis, facilis omnis voluptate sint!
+            </div>
+
+            <div class="footer">Footer</div>
+            </div>
+        </div>
+
+     </section>
+<script>
+   
+
+</script>
+
+</body>
+</html>
